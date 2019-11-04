@@ -1,0 +1,32 @@
+body {
+  height: 1175px;
+  width: 900px;
+  background-color: #eee;
+}
+
+header {
+  height: 50px;
+  text-align: center;
+}
+
+
+footer {
+  height: 62px;
+}
+
+span {
+  color: #777;
+}
+
+#sectionOne {
+  height: 482px;
+  background-color: #AA1423;
+}
+
+#sectionTwo {
+  height: 341px;
+}
+
+#sectionTree {
+  height: 240px;
+}
