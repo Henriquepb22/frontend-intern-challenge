@@ -1,7 +1,27 @@
+@font-face {
+  font-family: 'RobotoSlab Bold';
+  src: url(../fonts/RobotoSlab-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto Regular';
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto Bold';
+  src: url(../fonts/Roboto-Bold.ttf);
+}
+
+input::placeholder {
+  color: #FF6E14;
+}
+
 body {
   height: 1175px;
   width: 900px;
   background-color: #eee;
+  font-family: 'RobotoSlab Bold';
 }
 
 header {
@@ -21,11 +41,86 @@ span {
 #sectionOne {
   height: 482px;
   background-color: #AA1423;
+  text-align: center;
+  position: relative;
+}
+
+#sectionOne h1 {
+  position: absolute;
+  top: 146.6px;
+  font-size: 36px;
+  left: 289.3px;
+  line-height: 43.2px;
+  color: white;
+}
+
+#sectionOne p {
+  position: absolute;
+  font-family: 'Roboto Regular';
+  font-size: 16px;
+  width: 475px;
+  top: 199.5px;
+  left: 223.8px;
+  line-height: 19.2px;
+  color: white;
+}
+
+#sectionOne input {
+  position: absolute;
+  color: #FF6E14;
+  background-color: transparent;
+  font-size: 16px;
+  line-height: 19.2px;
+  top: 286px;
+  left: 224px;
+  width: 335px;
+  height: 36px;
+  border: none;
+  border-bottom: 2px solid #FF6E14;
+}
+
+#sectionOne button {
+  position: absolute;
+  background-color: #FF6E14;
+  font-family: 'Roboto Bold';
+  font-size: 16px;
+  line-height: 19.2px;
+  color: white;
+  border: none;
+  top: 286px;
+  left: 568px;
+  width: 106px;
+  height: 38px;
+}
+
+#sectionOne img {
+  width: 100%;
+  height: 100%;
 }
 
 #sectionTwo {
   height: 341px;
 }
+
+#sectionTwo div {
+  width: 369px;
+  height: 244.27px;
+  color: #AA1423;
+  display: inline-block;
+}
+
+#sectionTwo div a {
+  text-align: start;
+}
+
+#sectionTwo div span {
+  text-align: end;
+}
+
+#sectionTwo h1 {
+  text-align: center;
+}
+
 
 #sectionTree {
   height: 240px;
