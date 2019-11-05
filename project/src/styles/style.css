@@ -13,6 +13,11 @@
   src: url(../fonts/Roboto-Bold.ttf);
 }
 
+@font-face {
+  font-family: 'RobotoSlab Regular';
+  src: url(../fonts/RobotoSlab-Regular.ttf);
+}
+
 input::placeholder {
   color: #FF6E14;
 }
@@ -20,7 +25,7 @@ input::placeholder {
 body {
   height: 1175px;
   width: 900px;
-  background-color: #eee;
+  background-color: white;
   font-family: 'RobotoSlab Bold';
 }
 
@@ -100,6 +105,7 @@ span {
 
 #sectionTwo {
   height: 341px;
+  text-align: center;
 }
 
 #sectionTwo div {
@@ -109,19 +115,63 @@ span {
   display: inline-block;
 }
 
-#sectionTwo div a {
-  text-align: start;
+#sectionTwo ul li {
+  list-style: none;
+  text-align: left;
 }
 
-#sectionTwo div span {
-  text-align: end;
+#sectionTwo ul li a {
+  text-decoration: none;
+  color: inherit;
 }
 
-#sectionTwo h1 {
-  text-align: center;
+#sectionTwo ul li span {
+  padding-left: 50%;
 }
-
 
 #sectionTree {
   height: 240px;
+  background-color: #EEEEEE;
+}
+
+#hitsText {
+  text-align: center;
+  font-family: 'RobotoSlab Regular';
+  font-size: 32px;
+  line-height: 38.4px;
+  color: #AA1423;
+}
+
+#hitsCount {
+  width: 172px;
+  height: 73.54px;
+  text-align: center;
+  margin-left: 40%;
+}
+
+#hitsCount h1 {
+  background-color: white;
+  border: solid 1px #D2D2D2;
+  border-radius: 5px;
+  color: #AA1423;
+  font-family: 'RobotoSlab Regular';
+  font-size: 32px;
+  line-height: 38.4px;
+  margin-bottom: 0px;
+}
+
+#sectionTree h5 {
+  font-family: 'Roboto Regular';
+  font-size: 16px;
+  line-height: 19.2px;
+  color: #777;
+  margin-top: 4.5px;
+}
+
+#triangle {
+  width: 0;
+  height: 0;
+  border: 35px solid;
+  border-color: white transparent transparent transparent;
+  margin-left: 46%;
 }
