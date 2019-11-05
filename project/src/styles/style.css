@@ -27,11 +27,16 @@ body {
   width: 900px;
   background-color: white;
   font-family: 'RobotoSlab Bold';
+  margin: auto;
 }
 
 header {
   height: 50px;
   text-align: center;
+}
+
+header img {
+  padding-top: 14.3px;
 }
 
 span {
