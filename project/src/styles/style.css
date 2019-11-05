@@ -34,11 +34,6 @@ header {
   text-align: center;
 }
 
-
-footer {
-  height: 62px;
-}
-
 span {
   color: #777;
 }
@@ -105,28 +100,32 @@ span {
 
 #sectionTwo {
   height: 341px;
+  display: flex;
+  justify-content: center;
   text-align: center;
+  color: #AA1423;
 }
 
 #sectionTwo div {
-  width: 369px;
   height: 244.27px;
-  color: #AA1423;
-  display: inline-block;
+  width: 369px;
 }
 
-#sectionTwo ul li {
-  list-style: none;
-  text-align: left;
+#sectionTwo h1 {
+  font-family: 'RobotoSlab Regular';
+  font-size: 32px;
+  line-height: 38.4px;
 }
 
-#sectionTwo ul li a {
-  text-decoration: none;
-  color: inherit;
+#sectionTwo p {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Roboto Bold';
+  font-size: 16px;
 }
 
-#sectionTwo ul li span {
-  padding-left: 50%;
+#sectionTwo p span {
+  font-family: 'Roboto Regular';
 }
 
 #sectionTree {
@@ -174,4 +173,31 @@ span {
   border: 35px solid;
   border-color: white transparent transparent transparent;
   margin-left: 46%;
+}
+
+footer {
+  height: 62px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+footer div {
+  width: 599.87px;
+  height: 26.23px;
+  padding: 18.8px 150px 17px 150.1px;
+}
+
+footer div a {
+  float: left;
+  font-family: 'Roboto Regular';
+  font-size: 20px;
+  line-height: 24px;
+  color: #AA1423;
+  text-decoration: none;
+}
+
+footer div img {
+  float: right;
+  padding-left: 24px;
 }
